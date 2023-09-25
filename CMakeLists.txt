@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 
 project(protobuf)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 set(libprotobuf_lite_files
   google/protobuf/any_lite.cc
